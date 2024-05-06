@@ -1,0 +1,34 @@
+<dec>
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Dec to Bin/Hex Converter</title>
+</head>
+
+<body>
+    <div class="main">
+        <p class="sign" align="center">Decimal, Binary, and Hexadecimal converter</p>
+        <div class="form1">
+            <input id="number" class="un " type="text" align="center" placeholder="Insert your number to convert here">
+            <div class="radio_btn" id="conversion_type">
+                <p>Type of number to convert</p>
+                <input type="radio" id="dec" name="number_type" value="DEC">
+                <label for="dec">Decimal</label>
+                <input type="radio" id="bin" name="number_type" value="BIN">
+                <label for="bin">Binary</label>
+                <input type="radio" id="hex" name="number_type" value="HEX">
+                <label for="hex">Hexadecimal</label>
+            </div>
+            <br>
+            <button class="submit" align="center" onclick="convert()">Convert</button>
+            <br>
+            <a id="results" class="results"></a>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</dec>
